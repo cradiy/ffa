@@ -1,0 +1,5 @@
+[workspace]
+members = [ "crates/ffa-aac","crates/ffa-flac", "crates/ffa-mp3", "crates/ffa-ogg", "crates/ffa-wav", "ffa"]
+resolver = "2"
+# default-members = "ffa"
+

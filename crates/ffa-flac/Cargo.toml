@@ -1,0 +1,12 @@
+[package]
+name = "ffa-flac"
+version = "0.1.0"
+edition = "2021"
+
+# [lints]
+# workspace = true
+
+[dependencies]
+base64 = { version = "0.22.1" }
+tokio = { version = "1.41.0", features = ["io-util"] }
+op = "0.1.4"
